@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KMC Training Day One</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<!-- Header section starts here -->
+<div class="top-nav">
+        <a href="index.html" class="active">HOME</a>
+        <a href="#">DETAILS</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+        <a href="#">SINGUP/LOGIN</a>
+</div>
+<div id="header" class="header-section">
+    <img id="index-image" src="img/b3.jpg" alt="background-image">
+    <h1>Register a new account</h1>
+
+</div>
+<!-- Header section ends here -->
+<div class="container">
+    <div class="row">
+        <div class="column-12">
+            <div class="form">
+                <form action="#" method="post">
+                <div class="form-field">
+                    <label>Your Name
+                    <input type="text" placeholder=" Full Name" name="name">
+                </label>
+                </div>
+                <div class="form-field">
+                    <label>Username
+                    <input type="text" placeholder="Username" name="username">
+                </label>
+                </div>
+                <div class="form-field">
+                    <label>Email
+                    <input type="email" placeholder="Email" name="email">
+                </label>
+                </div>
+                <div class="form-field">
+                    <label>Enter Password
+                    <input type="password" name="password">
+                </label>
+                </div>
+                <div class="form-field">
+                    <label>Confirm Password
+                    <input type="password" name="password2">
+                </label>
+                </div>
+                <div class="form-field">
+                    <label>Do you agree to the form terms and conditions?
+                    <input type="checkbox" name="terms">
+                </label>
+                </div>
+                <hr>
+
+                <button id="submit-button" type="submit">Submit</button>
+            </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        $("submit-button").onclick(register())
+    </script>
+
+<!-- Footer section starts here -->
+
+<div class="footer">
+    <footer class="footer-content">
+    <p class="copy_right text-center">
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with love by
+        <br /> <a href="https://tipan-coders.simplesite.com" target="_blank">Stephen Tipa Augustine</a>
+    </p>
+    </footer>
+</div>
+<!-- Footer section starts here -->
+</div>
+
+</body>
+</html>

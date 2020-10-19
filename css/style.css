@@ -1,0 +1,134 @@
+.container {
+    z-index: 0;
+    display: block;
+}
+.row {
+    margin: auto;
+    padding: 5px;
+    display: table;
+    width: 100%;
+}
+.container .row .column {
+    width: 33.33%;
+    margin: auto;
+    padding: 5px;
+    border: 2px solid darkgray;
+    display: table-cell;
+
+}
+.container .row .column-12 {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    border: 2px solid darkslategray;
+    display: block;
+
+}
+.form {
+    display: block;
+    margin: 50px auto;
+    padding: 5px;
+    align-items: center;
+}
+.form-field {
+    display: block;
+    margin: 5px auto;
+    padding: 2px;
+    background-color: papayawhip;
+    border: 2px solid darkgray;
+    border-radius: 10%;
+    align-items: center;
+}
+.column:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body  {
+    font-family: Verdana Valken Vivian, serif;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 1.2em;
+}
+.header-section {
+    background-color: whitesmoke;
+    color: deeppink;
+    font-size: 2em;
+    animation-name: headerAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 2em;
+}
+#index-image{
+    width: 100%;
+    height: 200px;
+}
+@keyframes headerAnimation {
+    from {background-color: whitesmoke; color: deeppink;}
+    to {background-color: blueviolet; color: white;}
+}
+.header-section h1, .header-section p {
+    text-align: center;
+    display: block;
+}
+.footer {
+    width: 100%;
+    display: block;
+    position: page;
+    bottom: 0px;
+    margin: 10px auto;
+    padding: 10px;
+}
+footer {
+    margin: auto;
+    display: block;
+    background-color: rosybrown;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
+footer p {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    font-size: 1.5em;
+    font-family: "Cambria Math", fantasy;
+}
+
+.mainContent {
+    display: block;
+}
+
+.top-nav {
+    top: 0px;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 4em;
+    margin-bottom: 10px;
+    background-color: #333;
+    z-index: 100;
+}
+.top-nav a {
+    text-decoration: none;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 14px;
+    font-size: 17px;
+    border: 5px solid darkolivegreen;
+}
+.top-nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.top-nav a:active {
+    background-color: #4CAF50;
+    color: white;
+}
+table {
+    target-name: "List of personnels";
+    table-layout: auto;
+    border: 2px dashed gray;
+}
